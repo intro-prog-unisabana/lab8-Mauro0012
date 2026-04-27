@@ -56,7 +56,7 @@ Examples:
             else:
                 raise ValueError("Command not found!")
 
-        with open(ruta_f, "w", encoding="utf-8") as file:
+        with open(ruta_f, "w") as file:
             for tarea in tareas:
                 file.write(tarea + "\n")
 
